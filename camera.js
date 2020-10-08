@@ -24,5 +24,5 @@ function capteaza() {
     c.width = video.width;
     c.height = video.height;
     var ctx = c.getContext("2d");
-    ctx.drawImage(video,0,0,340,340);
+    ctx.drawImage(video,0,0,340,140);
 }
