@@ -26,3 +26,7 @@ function capteaza() {
     var ctx = c.getContext("2d");
     ctx.drawImage(video,0,0,340,140);
 }
+
+document.getElementById("canvas").addEventListener("click", function() {
+  document.capteaza();
+});
