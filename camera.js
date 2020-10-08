@@ -17,6 +17,10 @@ navigator.mediaDevices.getUserMedia(constraints)
 .then(on_cam_success)
 .catch(on_cam_error);
 
+
+video.addEventListener("touchstart",capteaza);
+video.addEventListener("mousedown",capteaza);
+
 //----------
 
 function capteaza() {
@@ -26,6 +30,3 @@ function capteaza() {
     var ctx = c.getContext("2d");
     ctx.drawImage(video,0,0,640,480);
 }
-
-video.addEventListener("touchstart",capteaza);
-video.addEventListener("mousedown",capteaza);
