@@ -27,5 +27,5 @@ function capteaza() {
     ctx.drawImage(video,0,0,340,140);
 }
 
-video.addEventListener("mousedown", capteaza);
+//video.addEventListener("mousedown", capteaza);
 //video.addEventListener("touchstart", capteaza);
