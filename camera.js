@@ -29,4 +29,3 @@ function capteaza() {
 
 video.addEventListener("mousedown", capteaza);
 video.addEventListener("touchstart", capteaza);
-});
