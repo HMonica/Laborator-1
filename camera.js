@@ -27,6 +27,7 @@ function capteaza() {
     ctx.drawImage(video,0,0,340,140);
 }
 
-document.getElementById("canvas").addEventListener("click", function() {
-  document.capteaza();
+const cnvs = document.querySelector("video")
+cnvs.addEventListener("click", capteaza);
+cnvs.addEventListener("touch", capteaza);
 });
